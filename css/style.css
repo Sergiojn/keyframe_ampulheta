@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.img{
+    width: 280px;
+    height: 399px;
+    
+    background: url("../img/sprite_ampulheta.png") ;
+    
+    animation: ampulheta 3s steps(1) infinite;
+    
+}
+
+@keyframes ampulheta{
+    0%{
+        background-position-x: 0px;
+    }
+    8%{
+        background-position-x: -299px ;
+    }
+    16%{
+        background-position-x: -603px ;
+    }
+    24%{
+        background-position-x: -897px ;
+    }
+    32%{
+        background-position-x: -1193px ;
+    }
+    40%{
+        background-position-x: -1490px ;
+        
+    }
+    
+    48%{
+        background-position-x: -1490px ;
+        transform: rotate(20deg);  
+    }
+    56%{
+        background-position-x: -1490px ;
+        transform: rotate(40deg);  
+    }
+    64%{
+        background-position-x: -1490px ;
+        transform: rotate(60deg);  
+    }
+    72%{
+        background-position-x: -1490px ;
+        transform: rotate(80deg);  
+    }
+    80%{
+        background-position-x: -1490px ;
+        transform: rotate(100deg);  
+    }
+    88%{
+        background-position-x: -1490px ;
+        transform: rotate(120deg);  
+    }
+    94%{
+        background-position-x: -1490px ;
+        transform: rotate(140deg);  
+    }
+    100%{
+        background-position-x: -1490px ;
+        transform: rotate(160deg);  
+    }
+    
+
+}
